@@ -55,19 +55,19 @@ Kutira Kone is a modern, professional Android application designed to establish 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/discover_fabrics.jpeg" width="260" alt="Discover Fabrics Feed" /> &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/listing.jpeg" width="260" alt="Scrap Listing Details" /> &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/inspire.jpeg" width="260" alt="Gemini AI Design Blueprints" />
+  <img src="screenshots/login.jpeg" width="260" alt="1. Secure Authentication" /> &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/discover_fabrics.jpeg" width="260" alt="2. Discover Fabrics Feed" /> &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/listing.jpeg" width="260" alt="3. Scrap Listing Details" />
 </p>
 <p align="center">
-  <img src="screenshots/shop.jpeg" width="260" alt="Tailor Vendor Shop Manager" /> &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/chat.jpeg" width="260" alt="Artisan Tailor Chat" /> &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/profile.jpeg" width="260" alt="Profile Settings & Workspace Switcher" />
+  <img src="screenshots/inspire.jpeg" width="260" alt="4. Gemini AI Blueprints" /> &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/request.jpeg" width="260" alt="5. Request & Order Management" /> &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/chat.jpeg" width="260" alt="6. Artisan Tailor Chat" />
 </p>
 <p align="center">
-  <img src="screenshots/login.jpeg" width="260" alt="Secure Authentication" /> &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/request.jpeg" width="260" alt="Request Management" /> &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/delivered.jpeg" width="260" alt="Delivery Tracker" />
+  <img src="screenshots/shop.jpeg" width="260" alt="7. Tailor Vendor Shop Manager" /> &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/profile.jpeg" width="260" alt="8. Profile & Workspace Switcher" /> &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/delivered.jpeg" width="260" alt="9. Order Delivery Tracker" />
 </p>
 
 ## 📄 License
