@@ -122,7 +122,7 @@ class AuthViewModel(
                         phone = _phone.value.trim(),
                         role = _selectedRole.value!!,
                         village = _village.value.trim(),
-                        location = _selectedLocation.value
+                        location = _selectedLocation.value ?: GeoPoint(13.0068, 76.1004)
                     )
                     
                     userRepository.createUser(newUser).collect { profileState ->

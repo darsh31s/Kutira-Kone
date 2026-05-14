@@ -59,17 +59,18 @@ fun CustomerDashboardScreen(
 
     LaunchedEffect(selectedRadius, selectedMaterial, userProfile) {
         coroutineScope.launch {
-            val profileLoc = userProfile?.location
-            if (profileLoc != null) {
-                // Priority 1: Use exact shop/home coordinates saved in user profile!
-                currentLocationName = if (userProfile?.village?.isNotBlank() == true) userProfile!!.village else "Saved Shop Location"
-                listingViewModel.loadNearbyListings(profileLoc.latitude, profileLoc.longitude)
+            val liveLoc = LocationUtils.getCurrentLocation(context)
+            if (liveLoc != null) {
+                // Priority 1: Use active live device GPS location!
+                val address = LocationUtils.getAddressFromCoordinates(context, liveLoc.first, liveLoc.second)
+                currentLocationName = if (address.isNotBlank() && address != "Unknown Area") address else (userProfile?.village?.ifBlank { "Active GPS Location" } ?: "Active GPS Location")
+                listingViewModel.loadNearbyListings(liveLoc.first, liveLoc.second)
             } else {
-                // Priority 2: Fallback to active live device GPS location
-                val loc = LocationUtils.getCurrentLocation(context)
-                if (loc != null) {
-                    currentLocationName = LocationUtils.getAddressFromCoordinates(context, loc.first, loc.second)
-                    listingViewModel.loadNearbyListings(loc.first, loc.second)
+                // Priority 2: Fallback to saved user profile coordinates
+                val profileLoc = userProfile?.location
+                if (profileLoc != null) {
+                    currentLocationName = if (userProfile?.village?.isNotBlank() == true) userProfile!!.village else "Saved Shop Location"
+                    listingViewModel.loadNearbyListings(profileLoc.latitude, profileLoc.longitude)
                 } else {
                     currentLocationName = "Location Required"
                 }
