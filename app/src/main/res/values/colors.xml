@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kutira_green">#1B7B5E</color>
+    <color name="kutira_green_light">#4CAF81</color>
+    <color name="kutira_amber">#F5A623</color>
+    <color name="kutira_orange">#E86D2A</color>
+    <color name="background_cream">#FFF8F0</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="on_surface">#1C1B1F</color>
+</resources>

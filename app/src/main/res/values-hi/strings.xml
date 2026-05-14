@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kutira-Kone</string>
+    <string name="tagline">Zero-Waste Fabric Exchange</string>
+    
+    <!-- Auth & Profile -->
+    <string name="btn_send_otp">OTP भेजें</string>
+    <string name="btn_verify">सत्यापित करें</string>
+    <string name="btn_create_profile">मेरी प्रोफ़ाइल बनाएं</string>
+    <string name="label_tailor">मैं एक दर्जी हूँ</string>
+    <string name="label_artisan">मैं एक कारीगर हूँ</string>
+    <string name="label_both">मैं दोनों हूँ</string>
+    
+    <!-- Listing -->
+    <string name="label_material">सामग्री</string>
+    <string name="label_size">आकार</string>
+    <string name="label_colour">रंग</string>
+    <string name="label_condition">स्थिति</string>
+    <string name="label_listing_type">सूची का प्रकार</string>
+    <string name="label_price">कीमत</string>
+    <string name="label_swap_offer">अदला-बदली का प्रस्ताव</string>
+    <string name="label_location">स्थान</string>
+    <string name="label_distance">दूरी</string>
+    <string name="btn_publish_listing">सूची प्रकाशित करें</string>
+    
+    <!-- Types -->
+    <string name="label_sell">बेचें</string>
+    <string name="label_swap">अदला-बदली</string>
+    <string name="label_free">मुफ़्त</string>
+    <string name="label_new">नया</string>
+    <string name="label_used">इस्तेमाल किया हुआ</string>
+    <string name="label_available">उपलब्ध</string>
+    
+    <!-- Materials -->
+    <string name="silk">रेशम</string>
+    <string name="cotton">सूती</string>
+    <string name="wool">ऊन</string>
+    <string name="synthetic">सिंथेटिक</string>
+    <string name="blend">मिश्रण</string>
+    
+    <!-- Interaction -->
+    <string name="btn_request_buy">खरीदने का अनुरोध</string>
+    <string name="btn_request_swap">अदला-बदली का अनुरोध</string>
+    <string name="btn_request_free">मुफ़्त के लिए अनुरोध</string>
+    <string name="btn_accept">स्वीकार करें</string>
+    <string name="btn_decline">अस्वीकार करें</string>
+    <string name="btn_counter">काउंटर</string>
+    <string name="btn_send">भेजें</string>
+    <string name="btn_mark_complete">पूरा हुआ चिह्नित करें</string>
+    <string name="btn_submit_review">समीक्षा सबमिट करें</string>
+    <string name="btn_skip">छोड़ें</string>
+    
+    <!-- AI -->
+    <string name="btn_generate_ideas">विचार उत्पन्न करें</string>
+    <string name="btn_inspire_me">✨ मुझे प्रेरित करें</string>
+    <string name="ai_label">✨ AI डिज़ाइन विचार</string>
+    <string name="ai_generating">विचार उत्पन्न हो रहे हैं...</string>
+    <string name="ai_error">विचार लोड नहीं हो सके</string>
+    <string name="easy">आसान</string>
+    <string name="medium">मध्यम</string>
+    <string name="hard">कठिन</string>
+    
+    <!-- Errors -->
+    <string name="error_phone_invalid">अमान्य भारतीय फोन नंबर</string>
+    <string name="error_otp_invalid">अमान्य OTP प्रारूप</string>
+    <string name="error_photo_required">कम से कम 1 फोटो आवश्यक है</string>
+    <string name="error_material_required">सामग्री का चयन आवश्यक है</string>
+    <string name="error_size_required">मान्य आकार आवश्यक है</string>
+    <string name="error_price_required">मान्य कीमत आवश्यक है</string>
+    <string name="error_location_required">स्थान आवश्यक है</string>
+    <string name="error_generic">एक त्रुटि हुई</string>
+    <string name="error_no_listings_nearby">आस-पास कोई फैब्रिक नहीं मिला। बड़ी त्रिज्या का प्रयास करें!</string>
+    
+    <!-- Notifications -->
+    <string name="notification_new_request">नया अनुरोध</string>
+    <string name="notification_accepted">अनुरोध स्वीकार कर लिया गया</string>
+    <string name="notification_new_message">नया संदेश</string>
+    <string name="notification_expiring">सूची जल्द ही समाप्त हो रही है</string>
+</resources>

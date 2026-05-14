@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kutira-Kone</string>
+    <string name="tagline">Zero-Waste Fabric Exchange</string>
+    
+    <!-- Auth & Profile -->
+    <string name="btn_send_otp">OTP அனுப்பவும்</string>
+    <string name="btn_verify">சரிபார்க்கவும்</string>
+    <string name="btn_create_profile">எனது சுயவிவரத்தை உருவாக்கு</string>
+    <string name="label_tailor">நான் ஒரு தையல்காரர்</string>
+    <string name="label_artisan">நான் ஒரு கைவினைஞர்</string>
+    <string name="label_both">நான் இரண்டுமே</string>
+    
+    <!-- Listing -->
+    <string name="label_material">பொருள்</string>
+    <string name="label_size">அளவு</string>
+    <string name="label_colour">நிறம்</string>
+    <string name="label_condition">நிலை</string>
+    <string name="label_listing_type">பட்டியல் வகை</string>
+    <string name="label_price">விலை</string>
+    <string name="label_swap_offer">பரிமாற்ற சலுகை</string>
+    <string name="label_location">இடம்</string>
+    <string name="label_distance">தூரம்</string>
+    <string name="btn_publish_listing">பட்டியலை வெளியிடு</string>
+    
+    <!-- Types -->
+    <string name="label_sell">விற்க</string>
+    <string name="label_swap">பரிமாற்றம்</string>
+    <string name="label_free">இலவசம்</string>
+    <string name="label_new">புதிய</string>
+    <string name="label_used">பயன்படுத்தப்பட்டது</string>
+    <string name="label_available">கிடைக்கிறது</string>
+    
+    <!-- Materials -->
+    <string name="silk">பட்டு</string>
+    <string name="cotton">பருத்தி</string>
+    <string name="wool">கம்பளி</string>
+    <string name="synthetic">செயற்கை</string>
+    <string name="blend">கலவை</string>
+    
+    <!-- Interaction -->
+    <string name="btn_request_buy">வாங்க கோரிக்கை</string>
+    <string name="btn_request_swap">பரிமாற்ற கோரிக்கை</string>
+    <string name="btn_request_free">இலவசமாக கோரிக்கை</string>
+    <string name="btn_accept">ஏற்றுக்கொள்</string>
+    <string name="btn_decline">நிராகரி</string>
+    <string name="btn_counter">மாற்று சலுகை</string>
+    <string name="btn_send">அனுப்பு</string>
+    <string name="btn_mark_complete">முடிந்ததாக குறிக்கவும்</string>
+    <string name="btn_submit_review">மதிப்புரையை சமர்ப்பி</string>
+    <string name="btn_skip">தவிர்</string>
+    
+    <!-- AI -->
+    <string name="btn_generate_ideas">யோசனைகளை உருவாக்கு</string>
+    <string name="btn_inspire_me">✨ என்னை ஊக்குவி</string>
+    <string name="ai_label">✨ AI வடிவமைப்பு யோசனைகள்</string>
+    <string name="ai_generating">யோசனைகளை உருவாக்குகிறது...</string>
+    <string name="ai_error">யோசனைகளை ஏற்ற முடியவில்லை</string>
+    <string name="easy">எளிதானது</string>
+    <string name="medium">நடுத்தரமானது</string>
+    <string name="hard">கடினமானது</string>
+    
+    <!-- Errors -->
+    <string name="error_phone_invalid">தவறான இந்திய தொலைபேசி எண்</string>
+    <string name="error_otp_invalid">தவறான OTP வடிவம்</string>
+    <string name="error_photo_required">குறைந்தபட்சம் 1 புகைப்படம் தேவை</string>
+    <string name="error_material_required">பொருள் தேர்வு தேவை</string>
+    <string name="error_size_required">சரியான அளவு தேவை</string>
+    <string name="error_price_required">சரியான விலை தேவை</string>
+    <string name="error_location_required">இடம் தேவை</string>
+    <string name="error_generic">ஒரு பிழை ஏற்பட்டது</string>
+    <string name="error_no_listings_nearby">அருகில் துணிகள் எதுவும் கிடைக்கவில்லை. பெரிய தூரத்தை முயற்சிக்கவும்!</string>
+    
+    <!-- Notifications -->
+    <string name="notification_new_request">புதிய கோரிக்கை</string>
+    <string name="notification_accepted">கோரிக்கை ஏற்கப்பட்டது</string>
+    <string name="notification_new_message">புதிய செய்தி</string>
+    <string name="notification_expiring">பட்டியல் விரைவில் காலாவதியாகிறது</string>
+</resources>

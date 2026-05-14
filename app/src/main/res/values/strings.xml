@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kutira-Kone</string>
+    <string name="tagline">Zero-Waste Fabric Exchange</string>
+    
+    <!-- Auth & Profile -->
+    <string name="btn_send_otp">Send OTP</string>
+    <string name="btn_verify">Verify</string>
+    <string name="btn_create_profile">Create My Profile</string>
+    <string name="label_tailor">I am a Tailor</string>
+    <string name="label_artisan">I am an Artisan</string>
+    <string name="label_both">I am Both</string>
+    
+    <!-- Listing -->
+    <string name="label_material">Material</string>
+    <string name="label_size">Size</string>
+    <string name="label_colour">Colour</string>
+    <string name="label_condition">Condition</string>
+    <string name="label_listing_type">Listing Type</string>
+    <string name="label_price">Price</string>
+    <string name="label_swap_offer">Swap Offer</string>
+    <string name="label_location">Location</string>
+    <string name="label_distance">Distance</string>
+    <string name="btn_publish_listing">Publish Listing</string>
+    
+    <!-- Types -->
+    <string name="label_sell">Sell</string>
+    <string name="label_swap">Swap</string>
+    <string name="label_free">Free</string>
+    <string name="label_new">New</string>
+    <string name="label_used">Used</string>
+    <string name="label_available">Available</string>
+    
+    <!-- Materials -->
+    <string name="silk">Silk</string>
+    <string name="cotton">Cotton</string>
+    <string name="wool">Wool</string>
+    <string name="synthetic">Synthetic</string>
+    <string name="blend">Blend</string>
+    
+    <!-- Interaction -->
+    <string name="btn_request_buy">Request to Buy</string>
+    <string name="btn_request_swap">Request to Swap</string>
+    <string name="btn_request_free">Request for Free</string>
+    <string name="btn_accept">Accept</string>
+    <string name="btn_decline">Decline</string>
+    <string name="btn_counter">Counter</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_mark_complete">Mark Complete</string>
+    <string name="btn_submit_review">Submit Review</string>
+    <string name="btn_skip">Skip</string>
+    
+    <!-- AI -->
+    <string name="btn_generate_ideas">Generate Ideas</string>
+    <string name="btn_inspire_me">✨ Inspire Me</string>
+    <string name="ai_label">✨ AI Design Ideas</string>
+    <string name="ai_generating">Generating ideas...</string>
+    <string name="ai_error">Could not load ideas</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    
+    <!-- Errors -->
+    <string name="error_phone_invalid">Invalid Indian phone number</string>
+    <string name="error_otp_invalid">Invalid OTP format</string>
+    <string name="error_photo_required">At least 1 photo required</string>
+    <string name="error_material_required">Material selection required</string>
+    <string name="error_size_required">Valid size required</string>
+    <string name="error_price_required">Valid price required</string>
+    <string name="error_location_required">Location is required</string>
+    <string name="error_generic">An error occurred</string>
+    <string name="error_no_listings_nearby">No scraps found nearby. Try a larger radius!</string>
+    
+    <!-- Notifications -->
+    <string name="notification_new_request">New Request</string>
+    <string name="notification_accepted">Request Accepted</string>
+    <string name="notification_new_message">New Message</string>
+    <string name="notification_expiring">Listing Expiring Soon</string>
+</resources>

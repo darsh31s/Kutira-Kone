@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#1B7B5E"
+        android:pathData="M0,0h108v108h-108z" />
+    <path
+        android:fillColor="#FFF8F0"
+        android:pathData="M54,20c-18.7,0-34,15.3-34,34s15.3,34,34,34s34-15.3,34-34S72.7,20,54,20z M54,80c-14.3,0-26-11.7-26-26s11.7-26,26-26 s26,11.7,26,26S68.3,80,54,80z" />
+    <!-- A simplified scissors icon -->
+    <path
+        android:fillColor="#FFF8F0"
+        android:pathData="M65.4,38.6c-2.4-2.4-6.3-2.4-8.8,0l-5.6,5.6l-5.6-5.6c-2.4-2.4-6.3-2.4-8.8,0c-2.4,2.4-2.4,6.3,0,8.8l10,10 c-1.2,1.2-1.9,2.8-1.9,4.6c0,3.6,2.9,6.5,6.5,6.5c3.6,0,6.5-2.9,6.5-6.5c0-1.8-0.7-3.4-1.9-4.6l10-10C67.8,44.9,67.8,41,65.4,38.6z M45,44.6c-1.1-1.1-1.1-2.9,0-4c1.1-1.1,2.9-1.1,4,0l3.6,3.6L45,51.8L45,44.6z M51.2,65c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3 S52.9,65,51.2,65z M62.4,44.6l-7.6,7.6l-3.6-3.6l3.6-3.6c1.1-1.1,2.9-1.1,4,0C63.5,41.7,63.5,43.5,62.4,44.6z" />
+</vector>
