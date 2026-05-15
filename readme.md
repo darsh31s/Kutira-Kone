@@ -47,7 +47,7 @@ Kutira Kone is a modern, professional Android application designed to establish 
 ### Installation & Run Command
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/kutira-kone-android.git
+   git clone https://github.com/darsh31s/Kutira-Kone.git
    ```
 2. Open the project in Android Studio.
 3. Sync Gradle dependencies.
