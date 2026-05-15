@@ -42,7 +42,7 @@ Kutira Kone is a modern, professional Android application designed to establish 
 ### Prerequisites
 - Android Studio Iguana or newer
 - JDK 17
-- A Firebase project with `google-services.json` placed in the `app/` directory.
+- **Note**: The `google-services.json` and API keys are already included in the repository for seamless evaluation. No extra Firebase setup is required!
 
 ### Installation & Run Command
 1. Clone the repository:
