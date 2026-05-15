@@ -56,10 +56,6 @@ Kutira Kone is a modern, professional Android application designed to establish 
    ./gradlew assembleDebug
    ```
 
-## 🎥 Demo
-- **Video Walkthrough**: [Link to Demo Video (Placeholder)](#)
-- **APK Download**: [Link to Latest Release (Placeholder)](#)
-
 ## 📁 Folder Structure
 The project follows a clean architecture (MVVM) approach:
 ```
