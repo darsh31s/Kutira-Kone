@@ -44,13 +44,37 @@ Kutira Kone is a modern, professional Android application designed to establish 
 - JDK 17
 - A Firebase project with `google-services.json` placed in the `app/` directory.
 
-### Installation
+### Installation & Run Command
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/kutira-kone-android.git
    ```
 2. Open the project in Android Studio.
-3. Sync Gradle and run the app on an emulator or physical device.
+3. Sync Gradle dependencies.
+4. Run the app using the Android Studio **Run** button (Shift+F10) or via terminal:
+   ```bash
+   ./gradlew assembleDebug
+   ```
+
+## 🎥 Demo
+- **Video Walkthrough**: [Link to Demo Video (Placeholder)](#)
+- **APK Download**: [Link to Latest Release (Placeholder)](#)
+
+## 📁 Folder Structure
+The project follows a clean architecture (MVVM) approach:
+```
+app/src/main/java/com/kutirakone/app/
+├── model/         # Data classes and entities
+├── repository/    # Data layer and Firebase interactions
+├── viewmodel/     # Business logic and StateFlow management
+├── ui/            # Jetpack Compose UI screens
+│   ├── auth/      # Login and Signup
+│   ├── customer/  # Artisan/Buyer flows
+│   ├── vendor/    # Tailor/Seller shop management
+│   └── common/    # Reusable Compose components
+├── navigation/    # App routing and NavGraph
+└── utils/         # Helper functions and constants
+```
 
 ## 📸 Screenshots
 
@@ -69,6 +93,12 @@ Kutira Kone is a modern, professional Android application designed to establish 
   <img src="screenshots/profile.jpeg" width="260" alt="8. Profile & Workspace Switcher" /> &nbsp;&nbsp;&nbsp;
   <img src="screenshots/delivered.jpeg" width="260" alt="9. Order Delivery Tracker" />
 </p>
+
+## 🔮 Future Improvements
+- **Payment Gateway Integration**: Direct Razorpay or Stripe integration for secure non-COD transactions.
+- **Push Notifications**: FCM integration for real-time order and chat alerts.
+- **Multilingual Support**: Localization for Hindi, Kannada, and other regional languages.
+- **AI Pricing Estimator**: Recommend fair prices for scraps based on market trends.
 
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
